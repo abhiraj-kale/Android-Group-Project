@@ -24,7 +24,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="56dp" android:id="@+id/textView2"
+        android:layout_marginTop="10sp"
+        android:id="@+id/textView2"
         app:layout_constraintTop_toTopOf="parent"
         android:textSize="25sp"
         android:text="Title"/>
@@ -51,7 +52,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         android:inputType="textMultiLine"
         android:ems="10"
-        android:layout_marginTop="31dp"
+        android:layout_marginTop="20sp"
         android:gravity="start|top"
         android:autofillHints="Your description goes here" />
 
