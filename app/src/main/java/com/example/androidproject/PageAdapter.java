@@ -7,12 +7,10 @@ import androidx.fragment.app.FragmentPagerAdapter;
 
 public class PageAdapter extends FragmentPagerAdapter {
 
-    private Context myContext;
     int totalTabs;
 
     public PageAdapter(Context context, FragmentManager fm, int totalTabs) {
         super(fm);
-        myContext = context;
         this.totalTabs = totalTabs;
     }
 
